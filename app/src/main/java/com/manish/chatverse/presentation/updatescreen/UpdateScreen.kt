@@ -81,7 +81,7 @@ fun UpdateScreen() {
         floatingActionButton = {
             FloatingActionButton(
                 onClick = {},
-                modifier = Modifier.size(65.dp),
+                modifier = Modifier.size(56.dp),
                 containerColor = colorResource(R.color.light_green),
                 contentColor = Color.White
             ) {
@@ -128,8 +128,8 @@ fun UpdateScreen() {
                 modifier = Modifier.padding(horizontal = 12.dp, vertical = 8.dp)
             )
 
-            status.forEach {
-                StatusItem(it)
+            status.forEach { data ->
+                StatusItem(data)
             }
 
             Spacer(Modifier.height(16.dp))

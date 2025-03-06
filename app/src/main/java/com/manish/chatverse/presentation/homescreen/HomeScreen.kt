@@ -43,7 +43,7 @@ fun HomeScreen() {
                 onClick = {},
                 containerColor = colorResource(R.color.light_green),
                 contentColor = Color.White,
-                modifier = Modifier.size(65.dp)
+                modifier = Modifier.size(56.dp)
             ) {
                 Icon(
                     painterResource(R.drawable.add_chat_icon),
@@ -115,8 +115,8 @@ fun Chats() {
 
     HorizontalDivider()
     LazyColumn {
-        items(chatData) {
-            ChatDesign(it)
+        items(chatData) { data ->
+            ChatDesign(data)
         }
     }
 }

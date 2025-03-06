@@ -22,10 +22,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.manish.chatverse" />
+                  <option name="mobileSdkAppId" value="1:454561622566:android:f8f9d2763c8959fe1bd4e7" />
+                  <option name="projectId" value="chatverse-3c3f5" />
+                  <option name="projectNumber" value="454561622566" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

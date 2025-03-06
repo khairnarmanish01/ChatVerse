@@ -23,11 +23,12 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavController
 import com.manish.chatverse.R
+import com.manish.chatverse.presentation.navigation.Routes
 
 @Composable
-@Preview(showSystemUi = true)
-fun WelcomeScreen() {
+fun WelcomeScreen(navController: NavController) {
     Column(
         Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
@@ -67,7 +68,7 @@ fun WelcomeScreen() {
         Spacer(Modifier.height(24.dp))
 
         Button(
-            onClick = {},
+            onClick = {navController.navigate(Routes.UserRegistrationScreen)},
             modifier = Modifier.size(280.dp, 43.dp),
             shape = RoundedCornerShape(8.dp),
             colors = ButtonDefaults.buttonColors(

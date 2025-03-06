@@ -65,8 +65,6 @@ fun CommunitiesScreen() {
     ) {
         Column(Modifier.padding(it)) {
 
-            HorizontalDivider()
-
             Button(
                 onClick = {},
                 colors = ButtonDefaults.buttonColors(

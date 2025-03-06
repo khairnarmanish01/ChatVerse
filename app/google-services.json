@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "454561622566",
+    "firebase_url": "https://chatverse-3c3f5-default-rtdb.firebaseio.com",
+    "project_id": "chatverse-3c3f5",
+    "storage_bucket": "chatverse-3c3f5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454561622566:android:f8f9d2763c8959fe1bd4e7",
+        "android_client_info": {
+          "package_name": "com.manish.chatverse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkPjNSBjMETdnI4wYHXL7lEVze0xIgfbc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
